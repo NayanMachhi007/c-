@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section head{
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+}
+
+@section globalcss{
+
+    <link rel="stylesheet" href="~/css/global.css" /> 
+    <link rel="stylesheet" href="~/css/banner.css" />
+}
+
+<section class="banner">
+    <div class="banner-main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-image-wrapper">
+                                    <img src="~/img/banner/slide-5.jpg" alt="slide1" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-image-wrapper">
+                                    <img src="~/img/banner/slide-2.jpg" alt="slide1" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-image-wrapper">
+                                    <img src="~/img/banner/slide-3.jpg" alt="slide1" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-image-wrapper">
+                                    <img src="~/img/banner/slide-4.jpg" alt="slide1" />
+                                </div>
+                            </div>
+                         
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+@section Scripts {
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="~/js/banner.js"></script>
+
+}

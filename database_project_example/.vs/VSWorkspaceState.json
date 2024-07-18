@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\database_project_example",
+    "\\database_project_example\\Controllers",
+    "\\database_project_example\\Data",
+    "\\database_project_example\\Models",
+    "\\database_project_example\\Views",
+    "\\database_project_example\\Views\\Home"
+  ],
+  "SelectedNode": "\\database_project_example\\Models\\EmployeeModel.cs",
+  "PreviewInSolutionExplorer": false
+}

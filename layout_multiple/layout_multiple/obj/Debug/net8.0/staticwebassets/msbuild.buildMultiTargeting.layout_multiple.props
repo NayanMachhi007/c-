@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\layout_multiple.props" />
+</Project>

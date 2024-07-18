@@ -1,0 +1,59 @@
+﻿@model IEnumerable<student_project_mvc_demo_model.Models.StudentModel>
+
+    <table class="table">
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Surname</th>
+            <th>Address</th>
+            <th>Contact no</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Confirm Password</th>
+            <th>Joining Date</th>
+
+            </tr>
+        </thead>
+        
+        <tbody>
+        @foreach(var iteam in Model)
+        {
+           <tr>
+               <td>
+                   @iteam.id
+               </td>
+                <td>
+                    @iteam.fname
+                </td>
+                <td>
+                    @iteam.lname
+                </td>
+                <td>
+                    @iteam.surname
+                </td>
+                <td>
+                    @iteam.address
+                </td>
+                <td>
+                    @iteam.contactno
+                </td>
+                <td>
+                    @iteam.email
+                </td>
+                <td>
+                    @iteam.password
+                </td>
+
+                <td>
+                    @iteam.confirmpassword
+                </td>
+                <td>
+                    @iteam.joiningdatae
+                </td>
+                <td><a asp-action="studentedit" asp-route-id="@iteam.id">Edit</a></td>
+           </tr>
+        }
+        </tbody>
+       </table>

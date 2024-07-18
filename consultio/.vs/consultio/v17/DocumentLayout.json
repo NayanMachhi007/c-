@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\consultio\\consultio\\views\\shared\\_visitor_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|solutionrelative:consultio\\views\\shared\\_visitor_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\consultio\\consultio\\wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|solutionrelative:consultio\\wwwroot\\css\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\consultio\\consultio\\wwwroot\\js\\customejavascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|solutionrelative:consultio\\wwwroot\\js\\customejavascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\consultio\\consultio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|solutionrelative:consultio\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\consultio\\consultio\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70A5767C-6211-445A-86B8-1105D1B1BC39}|consultio\\consultio.csproj|solutionrelative:consultio\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global.css",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\wwwroot\\css\\Global.css",
+              "RelativeDocumentMoniker": "consultio\\wwwroot\\css\\Global.css",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\wwwroot\\css\\Global.css",
+              "RelativeToolTip": "consultio\\wwwroot\\css\\Global.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-11T10:27:37.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomeJavascript.js",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\wwwroot\\js\\CustomeJavascript.js",
+              "RelativeDocumentMoniker": "consultio\\wwwroot\\js\\CustomeJavascript.js",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\wwwroot\\js\\CustomeJavascript.js",
+              "RelativeToolTip": "consultio\\wwwroot\\js\\CustomeJavascript.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-12T04:52:50.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "consultio\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "consultio\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABYNAAAAAAAAAAAAwD4NAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T11:03:26.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_visitor_layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\Views\\Shared\\_visitor_layout.cshtml",
+              "RelativeDocumentMoniker": "consultio\\Views\\Shared\\_visitor_layout.cshtml",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\Views\\Shared\\_visitor_layout.cshtml",
+              "RelativeToolTip": "consultio\\Views\\Shared\\_visitor_layout.cshtml",
+              "ViewState": "AQIAAJAGAAAAAAAAAADwv6QGAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T08:23:47.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Homepage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\Views\\Home\\Homepage.cshtml",
+              "RelativeDocumentMoniker": "consultio\\Views\\Home\\Homepage.cshtml",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\consultio\\consultio\\Views\\Home\\Homepage.cshtml",
+              "RelativeToolTip": "consultio\\Views\\Home\\Homepage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T11:01:14.752Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

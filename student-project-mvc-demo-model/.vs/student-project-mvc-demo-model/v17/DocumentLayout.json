@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\views\\student\\studentedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\views\\student\\studentedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\models\\studentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\views\\student\\studentadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\views\\student\\studentadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\data\\studenttempmst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\data\\studenttempmst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Migrations\\20240614035443_StudentTemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:student-project-mvc-demo-model\\Migrations\\20240614035443_StudentTemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\migrations\\20240614034405_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\migrations\\20240614034405_student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|c:\\users\\nayan.machhi\\onedrive - investis digital\\desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E367DC3-38DC-44AD-80A0-579F916F5DEB}|student-project-mvc-demo-model\\student-project-mvc-demo-model.csproj|solutionrelative:student-project-mvc-demo-model\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAqwFUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:05:57.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:07:35.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Models\\StudentModel.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Models\\StudentModel.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Models\\StudentModel.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Models\\StudentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:16:05.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Data\\DataContext.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T03:46:59.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T03:46:56.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Views\\Student\\StudentEdit.cshtml",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Views\\Student\\StudentEdit.cshtml",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Views\\Student\\StudentEdit.cshtml",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Views\\Student\\StudentEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:29:23.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentAdd.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Views\\Student\\StudentAdd.cshtml",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Views\\Student\\StudentAdd.cshtml",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Views\\Student\\StudentAdd.cshtml",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Views\\Student\\StudentAdd.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:23:21.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentTempMst.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Data\\StudentTempMst.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Data\\StudentTempMst.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Data\\StudentTempMst.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Data\\StudentTempMst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T05:58:51.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Program.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Program.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Program.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T04:14:24.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\appsettings.json",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\appsettings.json",
+              "RelativeToolTip": "student-project-mvc-demo-model\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-14T03:45:26.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240614035443_StudentTemp.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Migrations\\20240614035443_StudentTemp.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Migrations\\20240614035443_StudentTemp.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Migrations\\20240614035443_StudentTemp.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Migrations\\20240614035443_StudentTemp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T03:54:44.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240614034405_Student.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Migrations\\20240614034405_Student.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Migrations\\20240614034405_Student.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Migrations\\20240614034405_Student.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Migrations\\20240614034405_Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T03:44:06.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "student-project-mvc-demo-model\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\student-project-mvc-demo-model\\student-project-mvc-demo-model\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "student-project-mvc-demo-model\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:05:36.728Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

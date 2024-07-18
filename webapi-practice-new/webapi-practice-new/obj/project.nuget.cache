@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "i6l0kZXkAZoNsxA4rluW5dq6e88Z932Zx2NtJ9s/sMcSNpbVJGMeK7WW/TGcI/KI8sExCvRzIkFkdlWOaC7FbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\webapi-practice-new\\webapi-practice-new\\webapi-practice-new.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nayan.Machhi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Nayan.Machhi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Nayan.Machhi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Nayan.Machhi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Nayan.Machhi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Nayan.Machhi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\model-inheritance-practicle-2.props" />
+</Project>

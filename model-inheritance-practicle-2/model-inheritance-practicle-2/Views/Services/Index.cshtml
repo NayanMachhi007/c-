@@ -1,0 +1,62 @@
+﻿@model model_inheritance_practicle_2.Models.ServiceModelList
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#serviceaddmodel">
+    Service Add
+</button>
+
+<!-- Modal -->
+
+<div class="modal fade" id="serviceaddmodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form asp-action="serviceadd">
+                <div class="modal-body">
+                    <div>
+                        <label asp-for="name">
+                            Service Name
+                        </label>
+                        <input asp-for="name" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var data in Model.serviceList)
+        {
+            <tr>
+                <td>
+                    @data.id
+                </td>
+                <td>
+                    @data.name
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\owt.bundle.scp.css",
+      "PackagePath": "staticwebassets\\owt.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\main-LTR.css",
+      "PackagePath": "staticwebassets\\css\\main-LTR.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\main-RTL.css",
+      "PackagePath": "staticwebassets\\css\\main-RTL.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\animate.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\bootstrap-icons-1.9.1\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\bootstrap-icons-1.9.1\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-iconsd862.woff",
+      "PackagePath": "staticwebassets\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-iconsd862.woff"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-iconsd862.woff2",
+      "PackagePath": "staticwebassets\\css\\vendors\\bootstrap-icons-1.9.1\\fonts\\bootstrap-iconsd862.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\flaticon\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\flaticon\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\flaticon\\flaticond976.eot",
+      "PackagePath": "staticwebassets\\css\\vendors\\flaticon\\flaticond976.eot"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\flaticon\\flaticond976.svg",
+      "PackagePath": "staticwebassets\\css\\vendors\\flaticon\\flaticond976.svg"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\flaticon\\flaticond976.ttf",
+      "PackagePath": "staticwebassets\\css\\vendors\\flaticon\\flaticond976.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\flaticon\\flaticond976.woff",
+      "PackagePath": "staticwebassets\\css\\vendors\\flaticon\\flaticond976.woff"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\flaticon\\flaticond976.woff2",
+      "PackagePath": "staticwebassets\\css\\vendors\\flaticon\\flaticond976.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\vendors\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\css\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\css\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\appear.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\appear.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\isotope-min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\isotope-min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\jquery.countTo.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\jquery.countTo.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\particles.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\particles.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\vanilla-tilt.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\vanilla-tilt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\js\\vendors\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\vendors\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Nayan.Machhi\\OneDrive - Investis Digital\\Desktop\\c#\\owt\\owt\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.owt.props",
+      "PackagePath": "build\\owt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.owt.props",
+      "PackagePath": "buildMultiTargeting\\owt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.owt.props",
+      "PackagePath": "buildTransitive\\owt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.owt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

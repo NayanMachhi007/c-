@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "login";
+}
+
+@section authcss {
+    <link href="~/css/global.css" rel="stylesheet" />
+  
+    <link rel="stylesheet" href="~/css/auth.css" />
+
+        }
+
+
+ <section class="authlogin">
+     <div class="container">
+         <div class="row">
+             <div class="col-6">
+                 <div class="authlogin-image">
+                     <img src="~/img/login/login-image.png" />
+                 </div>
+             </div>
+
+             <div class="col-4">
+               <div class="logindetails-main-wrapper">
+                 <div class="logintitle">
+                     <h2 class="logintitle-heading2">
+                         Hello!
+                     </h2>
+                    <p><span class="spanlogin"> Welcome to Our site</span></p>
+                 </div>
+                    
+                 <div class="logindetails">
+                     <h3 class="loginheading3"><span class="spanlogin">Login</span> Your Account</h3>
+                 </div>
+
+
+                 <div class="loginusername">
+                     <input type="text"  placeholder="Email Address" class="inputlogin"/>
+                 </div>
+
+
+                <div class="loginpassword">
+                    <input type="password" placeholder="Password" class="inputlogin" />
+                </div>
+
+
+                <div class="loginremember">
+                    <p><input type="checkbox" /> Remember</p>
+                    <p><a href="~/auth/forgetpassword">Forget Password?</a></p>
+                </div>
+
+
+                <div class="loginsubmit">
+                    <button type="submit">Submit</button>
+                </div>
+
+                <div class="logincreateaccount">
+                    <a href="">Create Account</a>
+                </div>
+
+
+               </div>
+
+             </div>
+         </div>
+     </div>
+ </section>

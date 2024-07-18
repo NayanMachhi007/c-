@@ -1,0 +1,39 @@
+﻿@model IEnumerable< database_connectivity_lacture_3.Data.EmployeeMst>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Emp ID</th>
+            <th>Emp Name</th>           
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach(var iteam in Model)
+        {
+            <tr>
+                <td>
+                    @iteam.id
+                </td>
+                <td>
+                    @iteam.name
+                </td>               
+                <td>
+                    <a asp-action="empedit" asp-route-id="@iteam.id">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Emp ID</td>
+            <td>Emp Name</td>          
+        </tr>
+    </tfoot>
+
+</table>

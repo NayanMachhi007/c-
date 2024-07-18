@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\database-task-21-05-2024.props" />
+</Project>

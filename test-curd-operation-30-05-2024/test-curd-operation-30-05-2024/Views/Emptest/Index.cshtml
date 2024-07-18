@@ -1,0 +1,21 @@
+﻿@model IEnumerable<test_curd_operation_30_05_2024.Data.Emptesttable>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Emp ID</th>
+            <th>Emp Name</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var iteam in Model)
+        {
+            <tr>
+                <td>@iteam.empid</td>
+                <td>@iteam.empname</td>
+                <td><a asp-action="empedit" asp-route-id="@iteam.empid">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

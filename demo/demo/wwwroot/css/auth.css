@@ -1,0 +1,104 @@
+﻿.authlogin{
+    background:white;
+}
+
+    .authlogin .authlogin-image{
+        padding:4rem;
+    }
+    .authlogin .logindetails-main-wrapper .logintitle .logintitle-heading2 {
+        font-size: 2rem;
+    }
+
+.inputlogin{
+    width:100%;
+    border:none;
+    border-bottom:2px solid #FC750A;
+   
+}
+
+    .inputlogin:focus{
+        outline:0;
+    }
+
+.spanlogin {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #FC750A;
+}
+
+.authlogin .logindetails-main-wrapper{
+    display:flex;
+    height:100%;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.authlogin .logindetails-main-wrapper .logindetails {
+    text-align: center;
+}
+
+
+    .authlogin .logindetails-main-wrapper .logindetails .loginheading3 {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .authlogin .logindetails-main-wrapper .loginusername {
+        padding: 2rem 0;
+    }
+
+    .authlogin .logindetails-main-wrapper .loginremember{
+        display:flex;
+        justify-content:space-between;
+        padding:0 0 1rem 0;
+    }
+
+        .authlogin .logindetails-main-wrapper .loginremember a{
+            text-decoration:none;
+            color:black;
+            font-weight:600;
+        }
+
+        .authlogin .logindetails-main-wrapper .loginremember p {
+            display: flex;
+            align-items: center;
+            padding: 0.8rem 1rem 0 0;
+        }
+
+    .authlogin .logindetails-main-wrapper .loginremember p input{
+        margin:0 0.6rem 0 0;
+        display:inline-block;
+    }
+
+    .authlogin .logindetails-main-wrapper .loginsubmit button{
+        width:100%;
+        display:inline-block;
+        padding:0.7rem;
+        text-transform:uppercase;
+        font-weight:800;
+        color:white;
+        background:#FC750A;
+        letter-spacing:2px;
+        border:none;
+    }
+
+    .authlogin .logindetails-main-wrapper .logincreateaccount{
+        padding:1rem 0;
+    }
+
+
+    .authlogin .logindetails-main-wrapper .logincreateaccount a {
+        display:block;
+        text-decoration: none;
+        font-size: 0.8rem;
+        color:black;
+        text-align:center;
+    }
+
+.navbar .navbar-nav {
+    display: none;
+}
+
+.footer-custom{
+    display:none;
+}

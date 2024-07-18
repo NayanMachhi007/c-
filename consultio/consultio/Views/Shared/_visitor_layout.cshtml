@@ -1,0 +1,1776 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - consultio</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/consultio.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Global.css" />
+    <link rel='stylesheet' id='redux-extendify-styles-css'
+          href='~/wp-content/plugins/redux-framework/redux-core/assets/css/redux-extendify-styles.min0ad8.css?ver=4.4.11'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='ct-main-css-css'
+          href='~/wp-content/plugins/case-theme-core/assets/css/ct-main-css.min8a54.css?ver=1.0.0' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='progressbar-lib-css-css'
+          href='~/wp-content/plugins/case-theme-core/assets/css/lib/progressbar.minceb2.css?ver=0.7.1' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='oc-css-css'
+          href='~/wp-content/plugins/case-theme-core/assets/css/lib/owl.carousel.min77e6.css?ver=2.2.1' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='ct-slick-css-css'
+          href='~/wp-content/plugins/case-theme-core/assets/css/lib/ct-slick-css.min8a54.css?ver=1.0.0' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='ct-font-awesome-css'
+          href='~/wp-content/plugins/case-theme-core/assets/plugin/font-awesome/css/font-awesome.min1849.css?ver=4.7.0'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css'
+          href='~/wp-content/plugins/contact-form-7/includes/css/contact-form-7.min6281.css?ver=5.8.6' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='~/wp-content/themes/csuti/assets/css/bootstrap.mincce7.css?ver=4.0.0'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css'
+          href='~/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min1849.css?ver=4.7.0'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-v5-css'
+          href='~/wp-content/themes/csuti/assets/css/font-awesome5.min3e35.css?ver=5.8.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-v2-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon-v2.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-v3-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon-v3.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-v4-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon-v4.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-v5-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon-v5.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-v6-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon-v6.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-v7-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon-v7.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-flaticon-v8-css'
+          href='~/wp-content/themes/csuti/assets/css/font-flaticon-v8.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-material-icon-css'
+          href='~/wp-content/themes/csuti/assets/css/material-design-iconic-font.min3601.css?ver=2.2.0' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='magnific-popup-css'
+          href='~/wp-content/themes/csuti/assets/css/magnific-popup.min8a54.css?ver=1.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='~/wp-content/themes/csuti/assets/css/animate.min8a54.css?ver=1.0.0'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='consultio-theme-css'
+          href='~/wp-content/themes/csuti/assets/css/consultio-theme.mindeae.css?ver=3.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='consultio-style-css' href='~/wp-content/themes/csuti/consultio-style.minef10.css?ver=6.5.3'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='consultio-google-fonts-css'
+          href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%7CPoppins%3A300%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%7CPlayfair+Display%3A400%2C400i%2C700%2C700i%2C800%2C900%7CMuli%3A400%7CLato%3A400%7CBarlow%3A400%2C700%7CNunito+Sans%3A400%2C600%2C700%2C900%7CKalam%3A400%7CRubik%3A400%7CInter%3A400%2C500%2C600%2C700&amp;subset=latin%2Clatin-ext&amp;ver=6.5.3'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='newsletter-css' href='~/wp-content/plugins/newsletter/newsletter.min4730.css?ver=8.0.9'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css'
+          href='~/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min7bb8.css?ver=5.25.0' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css'
+          href='~/wp-content/plugins/elementor/assets/css/frontend-lite.minf3b2.css?ver=3.18.3' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='swiper-css'
+          href='~/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='elementor-post-5-css'
+          href='~/wp-content/uploads/elementor/css/post-58c8d.css?ver=1706673364' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-global-css'
+          href='~/wp-content/uploads/elementor/css/global8c8d.css?ver=1706673364' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-10-css'
+          href='~/wp-content/uploads/elementor/css/post-1095e6.css?ver=1706673365' type='text/css' media='all' />
+    <link rel="preload" as="style"
+          href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;display=swap&amp;ver=1706673348" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;display=swap&amp;ver=1706673348"
+          media="print" onload="this.media='all'">
+    <link rel='stylesheet' id='google-fonts-1-css'
+          href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.5.3'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css'
+          href='~/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-brands-css'
+          href='~/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
+          href='~/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3' type='text/css'
+          media='all' />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+    <link rel="https://api.w.org/" href="wp-json/index.html" />
+    <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/10.json" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+    <meta name="generator" content="WordPress 6.5.3" />
+    <link rel="canonical" href="index.html" />
+    <link rel='shortlink' href='index.html' />
+    <link rel="alternate" type="application/json+oembed"
+          href="wp-json/oembed/1.0/embedce1e.json?url=https%3A%2F%2Fdemo.casethemes.net%2Fconsultio-seo%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+          href="wp-json/oembed/1.0/embedc4bd?url=https%3A%2F%2Fdemo.casethemes.net%2Fconsultio-seo%2F&amp;format=xml" />
+    <meta name="generator" content="Redux 4.4.11" />
+    <link rel="icon" type="image/png" href="~/wp-content/uploads/2023/07/favicon.png" />
+    <link rel='stylesheet' id='elementor-post-14-css'
+          href='~/wp-content/uploads/elementor/css/post-1495e6.css?ver=1706673365' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-16-css'
+          href='~/wp-content/uploads/elementor/css/post-1695e6.css?ver=1706673365' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-18-css'
+          href='~/wp-content/uploads/elementor/css/post-1895e6.css?ver=1706673365' type='text/css' media='all' />
+    <link rel='stylesheet' id='google-fonts-2-css'
+          href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.5.3'
+          type='text/css' media='all' />
+
+    @await RenderSectionAsync("Header", required: false)
+
+
+
+</head>
+<body class="home page-template-default page page-id-10 redux-page  site-h1 heading-default-font  btn-type-gradient  fixed-footer  mobile-header-light  site-404-default elementor-default elementor-kit-5 elementor-page elementor-page-10">
+
+
+    <header id="ct-header-elementor" class="is-sticky">
+        <div class="ct-header-elementor-main">
+            <div class="ct-header-content">
+                <div class="row">
+                    <div class="col-12">
+                        <div data-elementor-type="wp-post" data-elementor-id="14" class="elementor elementor-14">
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-8ff9012 elementor-section-content-middle ct-header-fixed-transparent elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-row-max-none"
+                                     data-id="8ff9012" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-extended ">
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e67594d"
+                                         data-id="e67594d" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-a943641 elementor-widget__width-auto elementor-widget elementor-widget-ct_logo"
+                                                 data-id="a943641" data-element_type="widget"
+                                                 data-widget_type="ct_logo.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ct-logo ">
+                                                        <a href="index.html">
+                                                            <img fetchpriority="high" width="672" height="177"
+                                                                 src="~/wp-content/uploads/2023/07/logo-light.png"
+                                                                 class="attachment-full" alt="" loading="eager" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-78e4537"
+                                         data-id="78e4537" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-9f40819 elementor-widget__width-auto elementor-widget elementor-widget-ct_menu"
+                                                 data-id="9f40819" data-element_type="widget"
+                                                 data-widget_type="ct_menu.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_menu-9f40819"
+                                                         class="ct-nav-menu ct-nav-menu1 style6">
+                                                        <div class="menu-main-menu-container">
+                                                            <ul id="menu-main-menu" class="ct-main-menu clearfix">
+                                                                <li id="menu-item-113"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-113">
+                                                                    <a href="index.html" aria-current="page">
+                                                                        <span class="ct-menu-item">Home</span>
+                                                                    </a>
+                                                                    <ul class="sub-menu">
+                                                                        <li id="menu-item-28"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-28">
+                                                                            <a href="index.html"
+                                                                               aria-current="page">
+                                                                                <span class="ct-menu-item">
+                                                                                    Home
+                                                                                    Multipage
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-114"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114">
+                                                                            <a href="home-onepage/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    Home
+                                                                                    Onepage
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li id="menu-item-1149"
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1149">
+                                                                    <a href="#">
+                                                                        <span class="ct-menu-item">Pages</span>
+                                                                    </a>
+                                                                    <ul class="sub-menu">
+                                                                        <li id="menu-item-76"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76">
+                                                                            <a href="about/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    About
+                                                                                    us
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-1150"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150">
+                                                                            <a href="services/index.html">
+                                                                                <span class="ct-menu-item">Services</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-1156"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1156">
+                                                                            <a href="team/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    Our
+                                                                                    Team
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-1155"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155">
+                                                                            <a href="testimonials/index.html">
+                                                                                <span class="ct-menu-item">Testimonials</span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-1159"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1159">
+                                                                            <a href="faqs/index.html">
+                                                                                <span class="ct-menu-item">FAQs</span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li id="menu-item-85"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-85">
+                                                                    <a href="portfolio-grid/index.html">
+                                                                        <span class="ct-menu-item">Portfolio</span>
+                                                                    </a>
+                                                                    <ul class="sub-menu">
+                                                                        <li id="menu-item-1285"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1285">
+                                                                            <a href="portfolio-grid/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    Portfolio
+                                                                                    Grid
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-1286"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1286">
+                                                                            <a href="portfolio/market-expansion/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    Portfolio
+                                                                                    Details
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li id="menu-item-29"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29">
+                                                                    <a href="blog/index.html">
+                                                                        <span class="ct-menu-item">Blog</span>
+                                                                    </a>
+                                                                    <ul class="sub-menu">
+                                                                        <li id="menu-item-84"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84">
+                                                                            <a href="blog-grid/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    Blog
+                                                                                    Grid
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-83"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+                                                                            <a href="blog/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    Blog
+                                                                                    Listing
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li id="menu-item-1287"
+                                                                            class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1287">
+                                                                            <a href="what-we-are-capable-to-beo-usually-discovered/index.html">
+                                                                                <span class="ct-menu-item">
+                                                                                    Blog
+                                                                                    Details
+                                                                                </span>
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li id="menu-item-77"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
+                                                                    <a href="contact/index.html">
+                                                                        <span class="ct-menu-item">Contact</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-20689a8 elementor-widget__width-auto elementor-widget elementor-widget-ct_icon_search"
+                                                 data-id="20689a8" data-element_type="widget"
+                                                 data-widget_type="ct_icon_search.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ct-search-popup">
+                                                        <i class="fac fac-search"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ct-header-elementor-sticky">
+            <div class="container">
+                <div class="row">
+                    <div data-elementor-type="wp-post" data-elementor-id="16" class="elementor elementor-16">
+                        <section class="elementor-section elementor-top-section elementor-element elementor-element-dbdec31 elementor-section-content-middle elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-row-max-none"
+                                 data-id="dbdec31" data-element_type="section"
+                                 data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                            <div class="elementor-container elementor-column-gap-extended ">
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c221f8e"
+                                     data-id="c221f8e" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-d8f34a0 elementor-widget__width-auto elementor-widget elementor-widget-ct_logo"
+                                             data-id="d8f34a0" data-element_type="widget"
+                                             data-widget_type="ct_logo.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="ct-logo ">
+                                                    <a href="index.html">
+                                                        <img width="672"
+                                                             height="177"
+                                                             src="~/wp-content/uploads/2023/07/logo-dark.png"
+                                                             class="attachment-full" alt="" loading="eager" />
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a6b726d"
+                                     data-id="a6b726d" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-cdd5fcf elementor-widget__width-auto elementor-widget elementor-widget-ct_menu"
+                                             data-id="cdd5fcf" data-element_type="widget"
+                                             data-widget_type="ct_menu.default">
+                                            <div class="elementor-widget-container">
+                                                <div id="ct_menu-cdd5fcf" class="ct-nav-menu ct-nav-menu1 style6">
+                                                    <div class="menu-main-menu-container">
+                                                        <ul id="menu-main-menu-1" class="ct-main-menu clearfix">
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-113">
+                                                                <a href="index.html" aria-current="page">
+                                                                    <span class="ct-menu-item">Home</span>
+                                                                </a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-28">
+                                                                        <a href="index.html"
+                                                                           aria-current="page">
+                                                                            <span class="ct-menu-item">
+                                                                                Home
+                                                                                Multipage
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114">
+                                                                        <a href="home-onepage/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                Home
+                                                                                Onepage
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1149">
+                                                                <a href="#">
+                                                                    <span class="ct-menu-item">Pages</span>
+                                                                </a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76">
+                                                                        <a href="about/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                About
+                                                                                us
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150">
+                                                                        <a href="services/index.html">
+                                                                            <span class="ct-menu-item">Services</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1156">
+                                                                        <a href="team/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                Our
+                                                                                Team
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155">
+                                                                        <a href="testimonials/index.html">
+                                                                            <span class="ct-menu-item">Testimonials</span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1159">
+                                                                        <a href="faqs/index.html">
+                                                                            <span class="ct-menu-item">FAQs</span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-85">
+                                                                <a href="portfolio-grid/index.html">
+                                                                    <span class="ct-menu-item">Portfolio</span>
+                                                                </a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1285">
+                                                                        <a href="portfolio-grid/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                Portfolio
+                                                                                Grid
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1286">
+                                                                        <a href="portfolio/market-expansion/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                Portfolio
+                                                                                Details
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29">
+                                                                <a href="blog/index.html">
+                                                                    <span class="ct-menu-item">Blog</span>
+                                                                </a>
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84">
+                                                                        <a href="blog-grid/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                Blog
+                                                                                Grid
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+                                                                        <a href="blog/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                Blog
+                                                                                Listing
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1287">
+                                                                        <a href="what-we-are-capable-to-beo-usually-discovered/index.html">
+                                                                            <span class="ct-menu-item">
+                                                                                Blog
+                                                                                Details
+                                                                            </span>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
+                                                                <a href="contact/index.html">
+                                                                    <span class="ct-menu-item">Contact</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-dc78671 elementor-widget__width-auto elementor-widget elementor-widget-ct_icon_search"
+                                             data-id="dc78671" data-element_type="widget"
+                                             data-widget_type="ct_icon_search.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="ct-search-popup"> <i class="fac fac-search"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ct-header-mobile">
+            <div id="ct-header" class="ct-header-main ct-header-mobile-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="ct-header-branding">
+                            <a class="logo-dark" href="index.html"
+                               title="Consultio - Consulting Corporate WordPress Theme" rel="home">
+                                <img src="~/wp-content/themes/csuti/assets/images/logo-dark.png"
+                                     alt="Consultio - Consulting Corporate WordPress Theme" />
+                            </a><a class="logo-light" href="index.html"
+                                   title="Consultio - Consulting Corporate WordPress Theme" rel="home">
+                                <img src="~/wp-content/themes/csuti/assets/images/logo-light.png"
+                                     alt="Consultio - Consulting Corporate WordPress Theme" />
+                            </a><a class="logo-mobile" href="index.html"
+                                   title="Consultio - Consulting Corporate WordPress Theme" rel="home">
+                                <img src="~/wp-content/uploads/2023/07/logo-dark.png"
+                                     alt="Consultio - Consulting Corporate WordPress Theme" />
+                            </a>
+                        </div>
+                        <div class="ct-header-navigation">
+                            <nav class="ct-main-navigation">
+                                <div class="ct-main-navigation-inner">
+                                    <div class="ct-logo-mobile">
+                                        <a href="#" title="" rel="home">
+                                            <img src="~/wp-content/uploads/2023/07/logo-dark.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <ul id="menu-main-menu-2" class="ct-main-menu sub-hover children-plus clearfix">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-113">
+                                            <a href="index.html" aria-current="page"><span>Home</span></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10 current_page_item menu-item-28">
+                                                    <a href="index.html" aria-current="page">
+                                                        <span>
+                                                            Home
+                                                            Multipage
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114">
+                                                    <a href="home-onepage/index.html"><span>Home Onepage</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1149">
+                                            <a href="#"><span>Pages</span></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76">
+                                                    <a href="about/index.html"><span>About us</span></a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150">
+                                                    <a href="services/index.html"><span>Services</span></a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1156">
+                                                    <a href="team/index.html"><span>Our Team</span></a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1155">
+                                                    <a href="testimonials/index.html"><span>Testimonials</span></a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1159">
+                                                    <a href="faqs/index.html"><span>FAQs</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-85">
+                                            <a href="portfolio-grid/index.html"><span>Portfolio</span></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1285">
+                                                    <a href="portfolio-grid/index.html">
+                                                        <span>
+                                                            Portfolio
+                                                            Grid
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-portfolio menu-item-1286">
+                                                    <a href="portfolio/market-expansion/index.html">
+                                                        <span>
+                                                            Portfolio
+                                                            Details
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-29">
+                                            <a href="blog/index.html"><span>Blog</span></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84">
+                                                    <a href="blog-grid/index.html"><span>Blog Grid</span></a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83">
+                                                    <a href="blog/index.html"><span>Blog Listing</span></a>
+                                                </li>
+                                                <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1287">
+                                                    <a href="what-we-are-capable-to-beo-usually-discovered/index.html">
+                                                        <span>
+                                                            Blog
+                                                            Details
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
+                                            <a href="contact/index.html"><span>Contact</span></a>
+                                        </li>
+                                    </ul>
+                                    <div class="ct-header-holder-mobile"></div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="ct-menu-overlay"></div>
+                    </div>
+                </div>
+                <div id="ct-menu-mobile">
+                    <div class="ct-mobile-meta-item btn-nav-mobile open-menu"> <span></span></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    @RenderBody()
+
+
+
+
+    <footer id="colophon" class="site-footer-custom">
+        <div class="footer-custom-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div data-elementor-type="wp-post" data-elementor-id="18" class="elementor elementor-18">
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-08166ad elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-row-max-none"
+                                     data-id="08166ad" data-element_type="section"
+                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-container elementor-column-gap-extended ">
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c2f9ed1"
+                                         data-id="c2f9ed1" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-7306cb2 elementor-widget elementor-widget-ct_logo"
+                                                 data-id="7306cb2" data-element_type="widget"
+                                                 data-widget_type="ct_logo.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ct-logo ">
+                                                        <a href="index.html">
+                                                            <img fetchpriority="high" width="672" height="177"
+                                                                 src="~/wp-content/uploads/2023/07/logo-light.png"
+                                                                 class="attachment-full" alt="" loading="eager" />
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-886eb41 elementor-widget elementor-widget-ct_text_editor"
+                                                 data-id="886eb41" data-element_type="widget"
+                                                 data-widget_type="ct_text_editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_text_editor-886eb41" class="ct-text-editor "
+                                                         data-wow-delay="ms">
+                                                        <div class="ct-item--inner">
+                                                            <div class="ct-inline-css" data-css="
+ "></div>
+                                                            <div class="ct-text-editor elementor-clearfix">
+                                                                Premium
+                                                                wordpress theme for portfolio, freelancer, design
+                                                                agencies and a wide range of other design
+                                                                institutions.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5cb2fff elementor-widget elementor-widget-ct_icon"
+                                                 data-id="5cb2fff" data-element_type="widget"
+                                                 data-widget_type="ct_icon.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ct-icon1 style1 " data-wow-delay="ms">
+                                                        <a href="#">
+                                                            <i aria-hidden="true" class="fab fa-facebook-f"></i>
+                                                        </a> <a href="#">
+                                                            <i aria-hidden="true"
+                                                               class="fab fa-twitter"></i>
+                                                        </a> <a href="#">
+                                                            <i aria-hidden="true" class="fab fa-behance"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i aria-hidden="true"
+                                                               class="fab fa-dribbble"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-a239a3a"
+                                         data-id="a239a3a" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-d8e0360 elementor-widget elementor-widget-ct_heading"
+                                                 data-id="d8e0360" data-element_type="widget"
+                                                 data-widget_type="ct_heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_heading-d8e0360"
+                                                         class="ct-heading h-align- sub-style1 ct-heading-left item-st-default">
+                                                        <div class="ct-item--inner">
+                                                            <div class="ct-inline-css" data-css="
+ "></div>
+                                                            <h3 class="item--title st-default case-animate-time"
+                                                                data-wow-delay="ms">
+                                                                <span class="sp-main">
+                                                                    Our
+                                                                    Address
+                                                                </span>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-764c6f5 elementor-widget elementor-widget-ct_contact_info"
+                                                 data-id="764c6f5" data-element_type="widget"
+                                                 data-widget_type="ct_contact_info.default">
+                                                <div class="elementor-widget-container">
+                                                    <ul id="ct_contact_info-764c6f5"
+                                                        class="ct-contact-info ct-contact-info1 style1 ">
+                                                        <div class="ct-inline-css" data-css="
+ "></div>
+                                                        <li>
+                                                            <span class="ct-contact-icon">
+                                                                <i aria-hidden="true"
+                                                                   class="flaticon flaticon-telephone"></i>
+                                                            </span>
+                                                            <span class="ct-contact-content"> 888 999 0000 </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="ct-contact-icon">
+                                                                <i aria-hidden="true"
+                                                                   class="flaticon flaticon-black-back-closed-envelope-shape"></i>
+                                                            </span> <span class="ct-contact-content">
+                                                                inffo@consultio.com
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="ct-contact-icon">
+                                                                <i aria-hidden="true"
+                                                                   class="flaticon flaticon-map"></i>
+                                                            </span> <span class="ct-contact-content">
+                                                                855 road, broklyn
+                                                                street,<br /> new york 600
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5726f7a"
+                                         data-id="5726f7a" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-aadbe5f elementor-widget elementor-widget-ct_heading"
+                                                 data-id="aadbe5f" data-element_type="widget"
+                                                 data-widget_type="ct_heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_heading-aadbe5f"
+                                                         class="ct-heading h-align- sub-style1 ct-heading-left item-st-default">
+                                                        <div class="ct-item--inner">
+                                                            <div class="ct-inline-css" data-css="
+ "></div>
+                                                            <h3 class="item--title st-default case-animate-time"
+                                                                data-wow-delay="ms">
+                                                                <span class="sp-main">
+                                                                    Extra
+                                                                    Links
+                                                                </span>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-30b48c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-row-max-none"
+                                                     data-id="30b48c7" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-extended ">
+                                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-feec409"
+                                                         data-id="feec409" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-bf64517 elementor-widget elementor-widget-ct_link"
+                                                                 data-id="bf64517" data-element_type="widget"
+                                                                 data-widget_type="ct_link.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="ct-link1 style2 "
+                                                                         data-wow-delay="ms">
+                                                                        <ul class="ct-link-items">
+                                                                            <li> <a href="#"> About </a></li>
+                                                                            <li> <a href="#"> Our Team </a></li>
+                                                                            <li> <a href="#"> Portfolio </a></li>
+                                                                            <li> <a href="#"> Blog </a></li>
+                                                                            <li> <a href="#"> Our Services </a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6adf1ab"
+                                                         data-id="6adf1ab" data-element_type="column">
+                                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                                            <div class="elementor-element elementor-element-f571d18 elementor-widget elementor-widget-ct_link"
+                                                                 data-id="f571d18" data-element_type="widget"
+                                                                 data-widget_type="ct_link.default">
+                                                                <div class="elementor-widget-container">
+                                                                    <div class="ct-link1 style2 "
+                                                                         data-wow-delay="ms">
+                                                                        <ul class="ct-link-items">
+                                                                            <li> <a href="#"> Help </a></li>
+                                                                            <li> <a href="#"> Support </a></li>
+                                                                            <li> <a href="#"> Clients </a></li>
+                                                                            <li> <a href="#"> Contact </a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-15a5898"
+                                         data-id="15a5898" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-6ba1d20 elementor-widget elementor-widget-ct_heading"
+                                                 data-id="6ba1d20" data-element_type="widget"
+                                                 data-widget_type="ct_heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_heading-6ba1d20"
+                                                         class="ct-heading h-align- sub-style1 ct-heading-left item-st-default">
+                                                        <div class="ct-item--inner">
+                                                            <div class="ct-inline-css" data-css="
+ "></div>
+                                                            <h3 class="item--title st-default case-animate-time"
+                                                                data-wow-delay="ms">
+                                                                <span class="sp-main">
+                                                                    Newsletter
+                                                                </span>
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-f26a300 elementor-widget elementor-widget-ct_text_editor"
+                                                 data-id="f26a300" data-element_type="widget"
+                                                 data-widget_type="ct_text_editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_text_editor-f26a300" class="ct-text-editor "
+                                                         data-wow-delay="ms">
+                                                        <div class="ct-item--inner">
+                                                            <div class="ct-inline-css" data-css="
+ "></div>
+                                                            <div class="ct-text-editor elementor-clearfix">
+                                                                Donec
+                                                                metus lorem, vulputate at sapien sit amet.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-5b491e3 elementor-widget elementor-widget-ct_mailchimp_form"
+                                                 data-id="5b491e3" data-element_type="widget"
+                                                 data-widget_type="ct_mailchimp_form.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_mailchimp_form-5b491e3"
+                                                         class="ct-mailchimp ct-mailchimp1 style6">
+                                                        <script>
+                                                            (function () {
+                                                                window.mc4wp = window.mc4wp || {
+                                                                    listeners: [],
+                                                                    forms: {
+                                                                        on: function (evt, cb) {
+                                                                            window.mc4wp.listeners.push(
+                                                                                {
+                                                                                    event: evt,
+                                                                                    callback: cb
+                                                                                }
+                                                                            );
+                                                                        }
+                                                                    }
+                                                                }
+                                                            })();</script>
+                                                        <!-- Mailchimp for WordPress v4.9.11 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+                                                        <form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-59"
+                                                              method="post" data-id="59" data-name="Main">
+                                                            <div class="mc4wp-form-fields">
+                                                                <input type="email"
+                                                                       name="EMAIL" placeholder="Enter your email"
+                                                                       required /> <input type="submit"
+                                                                                          value="Subscribe" />
+                                                            </div><label style="display: none !important;">
+                                                                Leave this field
+                                                                empty if you're human: <input type="text"
+                                                                                              name="_mc4wp_honeypot" value="" tabindex="-1"
+                                                                                              autocomplete="off" />
+                                                            </label><input type="hidden" name="_mc4wp_timestamp"
+                                                                           value="1715161948" /><input type="hidden"
+                                                                                                       name="_mc4wp_form_id" value="59" /><input type="hidden" name="_mc4wp_form_element_id"
+                                                                                                                                                 value="mc4wp-form-2" />
+                                                            <div class="mc4wp-response"></div>
+                                                        </form><!-- / Mailchimp for WordPress Plugin -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="elementor-section elementor-top-section elementor-element elementor-element-c37d6f7 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default ct-header-fixed-none ct-row-max-none"
+                                     data-id="c37d6f7" data-element_type="section"
+                                     data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-container elementor-column-gap-extended ">
+                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c85cef7"
+                                         data-id="c85cef7" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-a5b07d6 elementor-widget elementor-widget-ct_text_editor"
+                                                 data-id="a5b07d6" data-element_type="widget"
+                                                 data-widget_type="ct_text_editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <div id="ct_text_editor-a5b07d6" class="ct-text-editor "
+                                                         data-wow-delay="ms">
+                                                        <div class="ct-item--inner">
+                                                            <div class="ct-inline-css" data-css="
+ "></div>
+                                                            <div class="ct-text-editor elementor-clearfix">
+                                                                ©
+                                                                Copyright <span class="ct-year">2024</span> by <a href="https://casethemes.net/"
+                                                                                                                  target="blank">Case-Themes</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <span class="ct-footer-year">2024</span>
+    </footer>
+    <a href="#" class="scroll-top"><i class="zmdi zmdi-long-arrow-up"></i></a>
+    </div><!-- #page -->
+    <div id="ct-newsletter-popup">
+        <div class="ct-newsletter-content">
+            <div class="ct-newsletter-content-inner">
+                <div class="ct-newsletter-close"><i class="zmdi zmdi-close"></i></div>
+                <div class="ct-newsletter-holder">
+                    <div class="ct-newsletter-meta">
+                        <h4 class="ct-newsletter-title"> Subscribe to our newsletter</h4>
+                        <div class="ct-newsletter-desc">
+                            Sign up to receive latest news, updates, promotions, and
+                            special offers delivered directly to your inbox.
+                        </div>
+                        <form method="post" action="https://demo.casethemes.net/consultio-seo/?na=s"
+                              class="tnp-subscription" style="">
+                            <input type="hidden" name="nlang" value="">
+                            <div class="tnp-field tnp-field-email">
+                                <label for="tnp-1">Your mail address</label> <input class="tnp-email" type="email" name="ne" id="tnp-1" value="" required>
+                            </div>
+                            <div class="tnp-field tnp-field-button">
+                                <input class="tnp-submit" type="submit"
+                                       value="Subscribe">
+                            </div>
+                        </form>
+                        <div class="ct-newsletter-hide"><span> No, thanks </span></div>
+                    </div>
+                    <div class="ct-newsletter-image">
+                        <img src="~/wp-content/themes/csuti/assets/images/newsletter-icon.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ct-mouse-move" style="display: none;">
+        <div class="circle-cursor circle-cursor--outer"></div>
+        <div class="circle-cursor circle-cursor--inner"></div>
+    </div>
+    <div class="ct-header-elementor-popup">
+        <div class="ct-close"><i class="ct-icon-close ct-center"></i></div>
+        <div class="ct-header-popup-inner">
+            <div class="ct-header-popup-scroll">
+                <div class="ct-header-popup-main">
+                    <div class="elementor-popup-social">
+                        <a href="#" target="_blank">
+                            <i class="fab fac-tripadvisor"></i>
+                        </a><a href="#" target="_blank">
+                            <i class="fab fac-twitter"></i>
+                        </a><a href="#" target="_blank">
+                            <i class="fab fac-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ct-demo-bar">
+        <div class="ct-demo-option">
+            <a class="choose-demo" href="javascript:;">
+                <span>Choose Demos</span> <i class="far fac-cog"></i>
+            </a> <a href="https://doc.casethemes.net/consultio/" target="_blank">
+                <span>Documentation</span> <i class="far fac-file-alt"></i>
+            </a> <a href="https://casethemes.ticksy.com/submit/#100016217" target="_blank">
+                <span>Submit a Ticket</span> <i class="far fac-life-ring"></i>
+            </a> <a href="https://themeforest.net/cart/add_items?ref=case-themes&amp;item_ids=25376496" target="_blank">
+                <span>Purchase Theme</span> <i class="far fac-shopping-cart"></i>
+            </a>
+        </div>
+        <div class="ct-demo-bar-inner">
+            <div class="ct-demo-bar-close ct-icon-close"></div>
+            <div class="ct-demo-bar-meta">
+                <h4>Pre-Built Demos Collection</h4>
+                <p>
+                    Consultio comes with a beautiful collection of modern, easily importable, and highly customizable
+                    demo layouts. Any of which can be installed via one click.
+                </p>
+            </div>
+            <div class="ct-demo-bar-list">
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo1.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio" target="_blank">Multi Pages</a> <a class="btn btn-default" href="http://demo.casethemes.net/consultio/home-onepage/"
+                                                                                                                  target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Finance<label>Main</label></h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo-insurance2.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-insurance2/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-insurance2/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Insurance 2<label>New</label></h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo-seo1.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default" href="index.html"
+                                   target="_blank">Multi Pages</a> <a class="btn btn-default"
+                                                                      href="home-onepage/index.html" target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">SEO<label>New</label></h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo-fintech1.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-fintech/" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-fintech/home-onepage/"
+                                   target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Fintech<label>New</label></h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo68.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-cryptocurrency/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-cryptocurrency/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Cryptocurrency</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo65.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-construction/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-construction/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Business Construction</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo67.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-business-coach/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-business-coach/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Business Coach</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo19.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-consulting/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-consulting/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Consulting</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo63.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-consulting2" target="_blank">
+                                    View
+                                    Demo
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-consulting2/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Consulting 2</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo64.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-consulting3" target="_blank">
+                                    View
+                                    Demo
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-consulting3/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Consulting 3</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo17.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-finance2" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-finance2/home-onepage/"
+                                   target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Finance 2</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo25.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-finance3/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-finance3/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Finance 3</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo27.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-finance4" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-finance4/home-onepage/"
+                                   target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Finance 4</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo29.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-finance5" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-finance5/home-onepage/"
+                                   target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Finance 5</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo26.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-digital-marketing" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-digital-marketing/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Digital Marketing</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo18.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-rtl/" target="_blank">Multi Pages</a> <a class="btn btn-default"
+                                                                                                                       href="http://demo.casethemes.net/consultio-rtl/home-onepage/" target="_blank">
+                                    One
+                                    Page
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Finance RTL</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo24.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-digital" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-digital/home-onepage/"
+                                   target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Digital Agency</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo23.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-immigration" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-immigration/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Immigration</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo22.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-agency" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-agency/home-onepage/" target="_blank">
+                                    One
+                                    Page
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Agency</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo12.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-corporate1/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-corporate1/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Corporate 1</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo13.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-corporate2/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-corporate2/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Corporate 2</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo14.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-corporate3/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-corporate3/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Corporate 3</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo2.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-business/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-business/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Business 1</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo16.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-business2/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-business2/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Business 2</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo21.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-business3/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-business3/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Business 3</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo28.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-business4" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-business4/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Business 4</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo3.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-law/" target="_blank">Multi Pages</a> <a class="btn btn-default"
+                                                                                                                       href="http://demo.casethemes.net/consultio-law/home-onepage/" target="_blank">
+                                    One
+                                    Page
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Law</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo4.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-startup/" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-startup/home-onepage/"
+                                   target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Startup</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo5.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-it/" target="_blank">Multi Pages</a> <a class="btn btn-default" href="http://demo.casethemes.net/consultio-it/home-onepage/"
+                                                                                                                      target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>IT Solution</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo6.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-tax/" target="_blank">Multi Pages</a> <a class="btn btn-default"
+                                                                                                                       href="http://demo.casethemes.net/consultio-tax/home-onepage/" target="_blank">
+                                    One
+                                    Page
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Tax Consulting</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo7.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-hr/" target="_blank">Multi Pages</a> <a class="btn btn-default" href="http://demo.casethemes.net/consultio-hr/home-onepage/"
+                                                                                                                      target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Human Resource</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo8.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-coach/" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-coach/home-onepage/" target="_blank">
+                                    One
+                                    Page
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Life Coach</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo9.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-marketing/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-marketing/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Marketing</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo10.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-medical/" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-medical/home-onepage/"
+                                   target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Medical</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo11.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-insurance/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-insurance/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Insurance</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo15.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-corona/" target="_blank">Multi Pages</a>
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-corona/home-onepage/" target="_blank">
+                                    One
+                                    Page
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Corona</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo20.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-software/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-software/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6>Software</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo30.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-marketing-agency/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-marketing-agency/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Marketing Agency</h6>
+                </div>
+                <div class="ct-demo-bar-item">
+                    <div class="ct-demo-bar-item-inner">
+                        <img src="~/wp-content/themes/csuti/assets/images/home-demo/demo31.jpg" alt="Demo" />
+                        <div class="ct-demo-bar-holder">
+                            <div class="ct-demo-btn-group">
+                                <a class="btn btn-default"
+                                   href="http://demo.casethemes.net/consultio-consulting-agency/" target="_blank">
+                                    Multi
+                                    Pages
+                                </a> <a class="btn btn-default"
+                                        href="http://demo.casethemes.net/consultio-consulting-agency/home-onepage/"
+                                        target="_blank">One Page</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h6 class="ct-demo-title">Consulting Agency</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ct-modal ct-modal-search">
+        <div class="ct-modal-close"><i class="ct-icon-close ct-center"></i></div>
+        <div class="ct-modal-overlay"></div>
+        <div class="ct-modal-content">
+            <form role="search" method="get" class="search-form-popup"
+                  action="https://demo.casethemes.net/consultio-seo/">
+                <div class="searchform-wrap">
+                    <input type="text" placeholder="Enter Keywords..." id="search" name="s"
+                           class="search-field" /> <button type="submit" class="search-submit">
+                        <i class="zmdi zmdi-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/wp-content/uploads/siteground-optimizer-assets/swv.min6281.js?ver=5.8.6"
+            id="swv-js"></script>
+    <script src="~/js/CustomeJavascript.js">
+        <script type="text/javascript" id="contact-form-7-js-extra">
+            /* <![CDATA[ */
+            var wpcf7 = { "api": { "root": "https:\/\/demo.casethemes.net\/consultio-seo\/wp-json\/", "namespace": "contact-form-7\/v1" } };
+            /* ]]> */</script>
+    <script type="text/javascript" src="~/wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script type="text/javascript" src="~/wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1"
+            id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="~/wp-content/uploads/siteground-optimizer-assets/ct-main-js.min8a54.js?ver=1.0.0"
+            id="ct-main-js-js"></script>
+    <script type="text/javascript"
+            src="~/wp-content/uploads/siteground-optimizer-assets/ct-inline-css-js.mindeae.js?ver=3.2.1"
+            id="ct-inline-css-js-js"></script>
+    <script type="text/javascript"
+            src="~/wp-content/uploads/siteground-optimizer-assets/contact-form-7.min6281.js?ver=5.8.6"
+            id="contact-form-7-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/bootstrap.mincce7.js?ver=4.0.0"
+            id="bootstrap-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/nice-select.mindc98.js?ver=all"
+            id="nice-select-js"></script>
+    <script type="text/javascript"
+            src="~/wp-content/uploads/siteground-optimizer-assets/match-height.min8a54.js?ver=1.0.0"
+            id="match-height-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/magnific-popup.min8a54.js?ver=1.0.0"
+            id="magnific-popup-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/progressbar.min8a54.js?ver=1.0.0"
+            id="progressbar-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/wow.min8a54.js?ver=1.0.0"
+            id="wow-js"></script>
+    <script type="text/javascript" src="~/wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2"
+            id="jquery-ui-core-js"></script>
+    <script type="text/javascript" src="~/wp-includes/js/jquery/ui/mouse.min3f14.js?ver=1.13.2"
+            id="jquery-ui-mouse-js"></script>
+    <script type="text/javascript" src="~/wp-includes/js/jquery/ui/slider.min3f14.js?ver=1.13.2"
+            id="jquery-ui-slider-js"></script>
+    <script type="text/javascript"
+            src="~/wp-content/uploads/siteground-optimizer-assets/consultio-main.mindeae.js?ver=3.2.1"
+            id="consultio-main-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/libs/gsap.min3b71.js?ver=3.5.0"
+            id="gsap-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/libs/scroll-trigger2039.js?ver=3.10.5"
+            id="pxl-scroll-trigger-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/libs/split-texta7a0.js?ver=3.6.1"
+            id="pxl-splitText-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/elementor/js/ct-elementordeae.js?ver=3.2.1"
+            id="ct-elementor-js-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/particles.min001e.js?ver=2.0.0"
+            id="lib-particles-js-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/elementor/js/ct-particles001e.js?ver=2.0.0"
+            id="ct-particles-js-js"></script>
+    <script type="text/javascript" src="~/wp-content/plugins/case-theme-core/assets/js/lib/slick.minc245.js?ver=1.8.1"
+            id="jquery-slick-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/elementor/js/ct-post-carousel-widgetdeae.js?ver=3.2.1"
+            id="ct-post-carousel-widget-js-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/elementor/js/ct-progressbar-widgetdeae.js?ver=3.2.1"
+            id="ct-progressbar-widget-js-js"></script>
+    <script type="text/javascript"
+            src="~/wp-content/plugins/case-theme-core/assets/js/lib/easy-pie-charte7f3.js?ver=2.1.7"
+            id="easy-pie-chart-lib-js-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/elementor/js/ct-piecharts-widgetdeae.js?ver=3.2.1"
+            id="ct-piecharts-widget-js-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/jquery.cookie330a.js?ver=1.4.1"
+            id="ct-cookie-js"></script>
+    <script type="text/javascript" src="~/wp-content/themes/csuti/assets/js/newsletter-popupdc98.js?ver=all"
+            id="newsletter-popup-js"></script>
+    <script type="text/javascript" defer src="~/wp-content/plugins/mailchimp-for-wp/assets/js/forms433d.js?ver=4.9.11"
+            id="mc4wp-forms-api-js"></script>
+    <script type="text/javascript" src="~/wp-content/plugins/elementor/assets/js/webpack.runtime.minf3b2.js?ver=3.18.3"
+            id="elementor-webpack-runtime-js"></script>
+    <script type="text/javascript" src="~/wp-content/plugins/elementor/assets/js/frontend-modules.minf3b2.js?ver=3.18.3"
+            id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript"
+            src="~/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2"
+            id="elementor-waypoints-js"></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+        /* <![CDATA[ */
+        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.18.3", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "e_swiper_latest": true, "block_editor_assets_optimize": true, "landing-pages": true, "e_image_loading_optimization": true, "e_global_styleguide": true }, "urls": { "assets": "https:\/\/demo.casethemes.net\/consultio-seo\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 10, "title": "Consultio%20%E2%80%93%20Consulting%20Corporate%20WordPress%20Theme", "excerpt": "", "featuredImage": false } };
+        /* ]]> */</script>
+    <script type="text/javascript" src="~/wp-content/plugins/elementor/assets/js/frontend.minf3b2.js?ver=3.18.3"
+            id="elementor-frontend-js"></script>
+
+</body>
+</html>

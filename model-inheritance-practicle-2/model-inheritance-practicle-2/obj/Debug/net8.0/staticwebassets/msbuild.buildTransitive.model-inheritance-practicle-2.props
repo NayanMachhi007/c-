@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\model-inheritance-practicle-2.props" />
+</Project>

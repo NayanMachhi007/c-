@@ -1,0 +1,46 @@
+﻿
+@model model_example.Models.EmployeeModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="col6 m-auto">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>
+                    @Model.emp_id
+                </td>
+
+                <td>
+                    @Model.emp_Name
+                </td>
+
+
+                <td>
+                    @Model.emp_email
+                </td>
+
+
+                <td>
+                    @Model.emp_mobile
+                </td>
+
+                <td>
+                    @Model.emp_status
+                </td>
+            </tr>
+             
+        </thead>
+
+    </table>
+</div>

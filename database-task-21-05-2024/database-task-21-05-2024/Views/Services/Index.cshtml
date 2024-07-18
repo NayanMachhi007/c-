@@ -1,0 +1,43 @@
+﻿@model IEnumerable<database_task_21_05_2024.Data.ServicesMst>
+
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Service ID</th>
+            <th>Service Name</th>
+            <th>Service Contact</th>
+            <th>Service Date</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var iteam in Model)
+        {
+            <tr>
+                <td>@iteam.ServiceId</td>
+                <td>@iteam.ServiceName</td>
+                <td>@iteam.ServiceContact</td>
+                <td>@iteam.ServiceDate</td>
+            </tr>
+        }
+       
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Service ID</td>
+            <td>Service Name</td>
+            <td>Service Contact</td>
+            <td>Service Date</td>
+        </tr>
+    </tfoot>
+</table>

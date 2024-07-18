@@ -1,0 +1,49 @@
+﻿@model database_project_example.Models.EmployeeModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>
+                @Model.EmployeeId
+            </td>
+
+            <td>
+                @Model.EmployeeName
+            </td>
+
+
+            <td>
+                @Model.EmployeeEmail
+            </td>
+
+
+            <td>
+                @Model.EmployeePhone
+            </td>
+
+            <td>
+                @Model.status
+            </td>
+        </tr>
+
+
+
+
+    </thead>
+
+</table>
+</div>

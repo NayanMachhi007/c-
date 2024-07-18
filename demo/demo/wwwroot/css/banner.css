@@ -1,0 +1,34 @@
+﻿.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+    position: relative;
+}
+
+    .swiper-pagination-bullet-active {
+        background: #0D3642;
+    }
+
+.banner .banner-main .swiper .swiper-wrapper ..swiper-slide .swiper-image-wrapper {
+    position: relative;
+    top: 0;
+}
+
+.banner .banner-main .swiper .swiper-wrapper ..swiper-slide .swiper-image-wrapper img{
+    width:100%;
+    height:80vh;
+    object-fit:cover;
+}
+
+
+

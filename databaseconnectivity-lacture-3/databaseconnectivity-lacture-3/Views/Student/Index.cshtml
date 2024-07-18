@@ -1,0 +1,47 @@
+﻿@model IEnumerable<databaseconnectivity_lacture_3.Data.StudentMst>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Surname</th>
+            <th>Address</th>
+            <th>Email Address</th>
+            <th>Password</th>
+            <th>Joining Date</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var iteam in Model)
+        {
+            <tr>
+                <td>@iteam.id</td>
+                <td>@iteam.fname</td>
+                <td>@iteam.lname</td>
+                <td>@iteam.surname</td>
+                <td>@iteam.address</td>
+                <td>@iteam.email</td>
+                <td>@iteam.password</td>
+                <td>@iteam.joiningdate</td>
+                <td><a asp-action="studentedit" asp-route-id="@iteam.id">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>ID</td>
+            <td>First Name</td>
+            <td>Last Name</td>
+            <td>Surname</td>
+            <td>Address</td>
+            <td>Email Address</td>
+            <td>Password</td>
+            <td>Joining Date</td>
+
+        </tr>
+    </tfoot>
+</table>
